@@ -4,20 +4,23 @@ This PowerShell script provides an easy way to sort your pictures into date-base
 
 ```
 +-- organizedPictures
-|   +-- 2018
+|   +-- 00
 |   |    +-- 00
+|   +-- 2018
 |   |    +-- 01
 |   |    +-- 02
 |   |    +-- 03
 |   +-- 2019
 ```
-Useage:
+## Useage
 Modify the variables picturesToOrganize and organizedPictures to point to directories on your hard drive. 
 
 * picturesToOrganize - Source folder containing the pictures you need organized
 * organizedPictures - Destination folder for pictures
 
-Notes:
+## Notes
 * Script copies files into a date-based structure
 * Source files are not deleted
 * No logic (yet) to handle duplicate file names (typically happens when running the script twice or on duplicate folders)
+* If date taken isn't present the pictures will be put into "00" month and year folders.
+
