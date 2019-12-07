@@ -2,7 +2,7 @@
  
 This PowerShell script provides an easy way to sort your pictures into date-based subfolders based on the date taken.
 
-.
+```
 +-- organizedPictures
 |   +-- 2018
 |   |    +-- 00
@@ -10,7 +10,7 @@ This PowerShell script provides an easy way to sort your pictures into date-base
 |   |    +-- 02
 |   |    +-- 03
 |   +-- 2019
-
+```
 Useage:
 Modify the variables picturesToOrganize and organizedPictures to point to directories on your hard drive. 
 
